@@ -73,35 +73,35 @@ export default function PortfolioV2() {
   ]
 
   const projects = [
+      {
+      "title": "Stas Tarat",
+      "description": "Creación de una aplicación pública para la gestión completa del club. Control de roles de usuarios y integración de APIs externas",
+      "technologies": ["Laravel", "API REST", "Tailwind CSS", "MySQL"],
+      "image": "/stastarat.png?height=200&width=350&auto=format",
+      "github": "#",
+      "demo": "https://stastarat.com/"
+    },
     {
       title: "Stay In",
       description: "Una aplicación web para gestionar reservas y clientes de un hotel, con tres aplicaciones: Frontend y 2 Backends.",
-      technologies: ["React", "Vue.js", "PHP", "SASS", "SQL", "API REST"],
+      technologies: ["Laravel","React", "Vue.js", "PHP", "SASS", "SQL", "API REST"],
       image: "/Stayin.png?height=200&width=350",
       github: "https://github.com/Juanfonsi/grup-07-juan-flores",
       demo: "#",
     },
     {
       title: "TopBid",
-      description: "Aplicación para gestionar una casa de subhastas.",
+      description: "Aplicación para gestionar una casa de subhastas, permitiendo a los usuarios subir artículos en tiempo real.",
       technologies: ["JavaScript", "HTML", "CSS", "PHP", "SQL"],
       image: "/TopBid.png?height=200&width=350",
       github: "https://github.com/Juanfonsi/subhasta10",
       demo: "#",
-    },
-    {
-      "title": "Mushtol App",
-      "description": "Aplicación móvil para coleccionar setas, hacer quizzes, descubrir restaurantes, registrar setas con la cámara y compartir con amigos. También incluye una API del tiempo para consultar el clima antes de salir.",
-      "technologies": ["Kotlin", "API REST", "CSS"],
-      "image": "/Mushtool.png?height=200&width=350",
-      "github": "#",
-      "demo": "#"
-    },
+    }
   ]
 
   const education = [
     {
-      period: "2024 - En curso",
+      period: "2024 - 2025",
       title: "Grado en Desarrollo Web",
       institution: "Insitut Nicolau Copèrnic",
       description: "Estudios centrados en desarrollo web, programación y diseño de interfaces.",
